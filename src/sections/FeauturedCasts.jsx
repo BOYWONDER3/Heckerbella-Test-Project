@@ -1,7 +1,7 @@
 import cast1 from "../assests/images/cast1.png";
-import poster2 from "../assests/images/poster2.png";
+import Poster2 from "../assests/images/Poster2.png";
 import cast3 from "../assests/images/cast3.png";
-import poster4 from "../assests/images/poster4.png";
+import Poster4 from "../assests/images/Poster4.png";
 
 export default function FeaturedCasts() {
   return (
@@ -16,7 +16,7 @@ export default function FeaturedCasts() {
           <h3>Keanu Reeves</h3>
         </div>
         <div>
-        <img src={poster2} />
+        <img src={Poster2} />
         <h3>Ryan Reynolds</h3>
         </div>
         <div>
@@ -24,7 +24,7 @@ export default function FeaturedCasts() {
         <h3>Timothée Chalamet</h3>
         </div>
         <div>
-        <img src={poster4} />
+        <img src={Poster4} />
         <h3>Chloë Grace Moretz</h3>
         </div>
       </div>
